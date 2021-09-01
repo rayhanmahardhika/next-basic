@@ -24,6 +24,14 @@
         "react/jsx-filename-extension": [1, {"extensions":[".js", "jsx", "ts", "tsx"]}],
         "react/no-unescaped-entities": "off",
         "react/react-in-jsx-scope": "off",
-        "@next/next/no-page-custom-font": "off"
+        "@next/next/no-page-custom-font": "off",
+        "react/jsx-props-no-spreading": "off",
+        "linebreak-style": "off",
+        "import/extensions": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "max-len": "off",
+        "react-hooks/exhaustive-deps": "off",
+        "jsx-a11y/anchor-is-valid": "off"
     }
 }

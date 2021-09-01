@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => (
   // penerapan componen layout
-    <Layout pageTitle="Home Page">
+  <Layout pageTitle="Home Page">
     {/* component image bawaan next js akan mengoptilamisasi image sehingga lebih ringan */}
     <Image src="/profile.jpg" width={200} height={200} alt="profile" />
     {/* implementasi css modular */}
