@@ -4,6 +4,7 @@
         "es2021": true
     },
     "extends": [
+        "next",
         "plugin:react/recommended",
         "airbnb"
     ],
@@ -20,6 +21,9 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "react/jsx-filename-extension": [1, {"extensions":[".js", "jsx", "ts", "tsx"]}]
+        "react/jsx-filename-extension": [1, {"extensions":[".js", "jsx", "ts", "tsx"]}],
+        "react/no-unescaped-entities": "off",
+        "react/react-in-jsx-scope": "off",
+        "@next/next/no-page-custom-font": "off"
     }
 }
